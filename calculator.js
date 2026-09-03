@@ -28,7 +28,7 @@ calcBtn.addEventListener("click", () => {
         alert("Please fill all fields!");
         return;
     }
-    if(caObtained>caTotal || 0<caWeightPercent>100||caObtained>0||caTotal>0){
+    if(caObtained>caTotal || 0<caWeightPercent<100||caObtained>0||caTotal>0){
         alert("Please Insert Valid Values");
         return;
     }
